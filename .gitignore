@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.Rhistory
+.venv*/
+node_modules/
+generated/
+*.log
+.env*
+*.pem
+*.key

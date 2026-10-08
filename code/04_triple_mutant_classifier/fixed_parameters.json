@@ -1,0 +1,429 @@
+{
+  "configurations": [
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Extended",
+      "model": "ANN",
+      "parameters": {
+        "hidden_layer_sizes": [
+          30,
+          10,
+          5
+        ],
+        "max_iter": 200,
+        "solver": "sgd"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Extended",
+      "model": "KNN",
+      "parameters": {
+        "algorithm": "kd_tree",
+        "n_neighbors": 8,
+        "p": 2
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Extended",
+      "model": "LR",
+      "parameters": {
+        "C": 0.1
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Extended",
+      "model": "RF",
+      "parameters": {
+        "max_depth": 7,
+        "max_features": 2,
+        "min_samples_leaf": 1,
+        "n_estimators": 100
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Extended",
+      "model": "SVM",
+      "parameters": {
+        "C": 1,
+        "kernel": "poly"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Extended",
+      "model": "XGBoost",
+      "parameters": {
+        "gamma": 0.001,
+        "learning_rate": 0.3,
+        "max_depth": 2
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Graph",
+      "model": "ANN",
+      "parameters": {
+        "hidden_layer_sizes": [
+          40
+        ],
+        "max_iter": 50,
+        "solver": "adam"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Graph",
+      "model": "KNN",
+      "parameters": {
+        "algorithm": "ball_tree",
+        "n_neighbors": 7,
+        "p": 1
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Graph",
+      "model": "LR",
+      "parameters": {
+        "C": 1
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Graph",
+      "model": "RF",
+      "parameters": {
+        "max_depth": 7,
+        "max_features": 1,
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Graph",
+      "model": "SVM",
+      "parameters": {
+        "C": 10,
+        "kernel": "rbf"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Graph",
+      "model": "XGBoost",
+      "parameters": {
+        "gamma": 0.1,
+        "learning_rate": 0.2,
+        "max_depth": 3
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Standard",
+      "model": "ANN",
+      "parameters": {
+        "hidden_layer_sizes": [
+          100,
+          20
+        ],
+        "max_iter": 30,
+        "solver": "adam"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Standard",
+      "model": "KNN",
+      "parameters": {
+        "algorithm": "brute",
+        "n_neighbors": 8,
+        "p": 2
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Standard",
+      "model": "LR",
+      "parameters": {
+        "C": 1
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Standard",
+      "model": "RF",
+      "parameters": {
+        "max_depth": 7,
+        "max_features": 2,
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Standard",
+      "model": "SVM",
+      "parameters": {
+        "C": 10,
+        "kernel": "rbf"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "CDK_Standard",
+      "model": "XGBoost",
+      "parameters": {
+        "gamma": 0.1,
+        "learning_rate": 0.2,
+        "max_depth": 3
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "ECFP6",
+      "model": "ANN",
+      "parameters": {
+        "hidden_layer_sizes": [
+          60
+        ],
+        "max_iter": 200,
+        "solver": "lbfgs"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "ECFP6",
+      "model": "KNN",
+      "parameters": {
+        "algorithm": "kd_tree",
+        "n_neighbors": 6,
+        "p": 2
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "ECFP6",
+      "model": "LR",
+      "parameters": {
+        "C": 1
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "ECFP6",
+      "model": "RF",
+      "parameters": {
+        "max_depth": 7,
+        "max_features": 2,
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "ECFP6",
+      "model": "SVM",
+      "parameters": {
+        "C": 10,
+        "kernel": "rbf"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "ECFP6",
+      "model": "XGBoost",
+      "parameters": {
+        "gamma": 0.01,
+        "learning_rate": 0.3,
+        "max_depth": 4
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "MACCS",
+      "model": "ANN",
+      "parameters": {
+        "hidden_layer_sizes": [
+          100,
+          20
+        ],
+        "max_iter": 50,
+        "solver": "adam"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "MACCS",
+      "model": "KNN",
+      "parameters": {
+        "algorithm": "ball_tree",
+        "n_neighbors": 8,
+        "p": 2
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "MACCS",
+      "model": "LR",
+      "parameters": {
+        "C": 0.1
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "MACCS",
+      "model": "RF",
+      "parameters": {
+        "max_depth": 7,
+        "max_features": 2,
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "MACCS",
+      "model": "SVM",
+      "parameters": {
+        "C": 100,
+        "kernel": "rbf"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "MACCS",
+      "model": "XGBoost",
+      "parameters": {
+        "gamma": 0.1,
+        "learning_rate": 0.2,
+        "max_depth": 4
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "PubChem",
+      "model": "ANN",
+      "parameters": {
+        "hidden_layer_sizes": [
+          20
+        ],
+        "max_iter": 100,
+        "solver": "adam"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "PubChem",
+      "model": "KNN",
+      "parameters": {
+        "algorithm": "ball_tree",
+        "n_neighbors": 7,
+        "p": 1
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "PubChem",
+      "model": "LR",
+      "parameters": {
+        "C": 1
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "PubChem",
+      "model": "RF",
+      "parameters": {
+        "max_depth": 7,
+        "max_features": 2,
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "PubChem",
+      "model": "SVM",
+      "parameters": {
+        "C": 10,
+        "kernel": "rbf"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "PubChem",
+      "model": "XGBoost",
+      "parameters": {
+        "gamma": 0.001,
+        "learning_rate": 0.2,
+        "max_depth": 4
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "Substructure",
+      "model": "ANN",
+      "parameters": {
+        "hidden_layer_sizes": [
+          50,
+          10
+        ],
+        "max_iter": 80,
+        "solver": "adam"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "Substructure",
+      "model": "KNN",
+      "parameters": {
+        "algorithm": "brute",
+        "n_neighbors": 7,
+        "p": 1
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "Substructure",
+      "model": "LR",
+      "parameters": {
+        "C": 10
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "Substructure",
+      "model": "RF",
+      "parameters": {
+        "max_depth": 7,
+        "max_features": 2,
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "Substructure",
+      "model": "SVM",
+      "parameters": {
+        "C": 1,
+        "kernel": "poly"
+      }
+    },
+    {
+      "endpoint": "mutant",
+      "fingerprint": "Substructure",
+      "model": "XGBoost",
+      "parameters": {
+        "gamma": 0.01,
+        "learning_rate": 0.3,
+        "max_depth": 4
+      }
+    }
+  ]
+}

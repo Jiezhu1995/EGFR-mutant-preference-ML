@@ -1,0 +1,26 @@
+{
+  "seed": 746,
+  "split": "frozen compound-scaffold five-fold",
+  "targets": [
+    "p_activity_wt",
+    "p_activity_mut",
+    "delta_pactivity"
+  ],
+  "n_unique_configurations_by_target": {
+    "p_activity_wt": 81,
+    "p_activity_mut": 96,
+    "delta_pactivity": 96
+  },
+  "deduplication_key": [
+    "model",
+    "compound_representation",
+    "protein_representation",
+    "target"
+  ],
+  "source_priority": [
+    "deep_learning",
+    "protein_representation",
+    "fingerprint_and_traditional_model"
+  ],
+  "large_model_weights_in_git": false
+}

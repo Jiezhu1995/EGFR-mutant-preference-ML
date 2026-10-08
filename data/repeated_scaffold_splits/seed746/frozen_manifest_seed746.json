@@ -1,0 +1,21 @@
+{
+  "schema_version": "egfr_paired_seed746_v1",
+  "source_data": "/Users/sujie/Documents/Codex/2026-08-26/egf/outputs/gpu_full_export_20260829/egfr_work/kinase_data_collection/mutation_aware_v2/frozen_splits/egfr_pairs_scaffold5_v2.tsv.gz",
+  "seed": 746,
+  "n_folds": 5,
+  "assignment_algorithm": "size-descending greedy scaffold balancing; seeded random tie order",
+  "validation_fold_rule": "(test_fold + 1) mod 5",
+  "rows": 1223,
+  "unique_compounds": 810,
+  "unique_scaffold_groups": 376,
+  "fold_loads": [
+    245,
+    245,
+    245,
+    244,
+    244
+  ],
+  "external_lead_connectivity_keys_found": [],
+  "external_leads_absent": true,
+  "leakage_checks_passed": true
+}

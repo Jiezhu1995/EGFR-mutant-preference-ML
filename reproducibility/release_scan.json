@@ -1,0 +1,17 @@
+{
+  "credential_pattern_files": [],
+  "absolute_path_reference_files": [
+    "data/repeated_scaffold_splits/seed104/frozen_manifest_seed104.json",
+    "data/repeated_scaffold_splits/seed156/frozen_manifest_seed156.json",
+    "data/repeated_scaffold_splits/seed360/frozen_manifest_seed360.json",
+    "data/repeated_scaffold_splits/seed410/frozen_manifest_seed410.json",
+    "data/repeated_scaffold_splits/seed450/frozen_manifest_seed450.json",
+    "data/repeated_scaffold_splits/seed556/frozen_manifest_seed556.json",
+    "data/repeated_scaffold_splits/seed727/frozen_manifest_seed727.json",
+    "data/repeated_scaffold_splits/seed732/frozen_manifest_seed732.json",
+    "data/repeated_scaffold_splits/seed746/frozen_manifest_seed746.json",
+    "data/repeated_scaffold_splits/seed853/frozen_manifest_seed853.json",
+    "reproducibility/finalize.py"
+  ],
+  "note": "Path references in archived manifests document original runs; portable entry points take local paths. Pattern scan is not a legal or exhaustive security review."
+}

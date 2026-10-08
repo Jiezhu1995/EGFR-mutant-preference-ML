@@ -1,0 +1,5 @@
+screen,hit_id,name,connectivity_key,reason,classification_connectivity_match,regression_connectivity_match
+ECFP6,NOHIT::output_10_225.csv::2961,Tigozertinib,LIMFPAAAIVQRRD,present_in_classification_and_or_regression_training_data,1,1
+ECFP6,NOHIT::output_10_224.csv::597,JBJ-04-125-02 racemate,VHQVOTINPRYDAO,present_in_classification_and_or_regression_training_data,1,1
+ECFP6,NOHIT::output_10_222.csv::1908,Staurosporine,HKSZLNNOFSGOKW,present_in_classification_and_or_regression_training_data,1,1
+ECFP6,HIT212019863,Staurosporine,HKSZLNNOFSGOKW,present_in_classification_and_or_regression_training_data,1,1

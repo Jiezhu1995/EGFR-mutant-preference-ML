@@ -1,0 +1,28 @@
+{
+  "raw_rows": 12322705,
+  "blank_smiles_rows": 5,
+  "unique_raw_smiles": 8253832,
+  "old_database_rows_scored": 8081662,
+  "old_database_invalid_smiles": 3,
+  "missing_hit_id_valid_rows": 1451589,
+  "missing_hit_id_unique_raw_smiles_scored": 1425590,
+  "missing_hit_id_positive_rows": 94,
+  "duplicate_hit_id_unpredicted_unique_smiles_scored": 10459,
+  "duplicate_hit_id_remainder_positive_rows": 0,
+  "coverage_statement": "Every nonblank unique raw SMILES was present in at least one of the three prediction passes; exact raw-SMILES coverage audited by SQLite set difference.",
+  "combined_regression_positive_rows": 601,
+  "standardized_stereostructure_positive_count": 529,
+  "historical_mutant_ECFP6_consensus_count": 16,
+  "t4015_recovered": true,
+  "fingerprints": {
+    "regression": "RDKit Morgan radius=3, 2048 bit",
+    "historical_classification": "R rcdk/CDK ECFP6 depth=6, 1024 bit"
+  },
+  "file_sha256": {
+    "corrected_regression_positives": "29d76710463f946f3a77bcc9f4e5d9dcab1bd6a6db2fa086d373824a58da94f6",
+    "corrected_ecfp6_consensus": "7da082519d31c1ee27fdf504aaea28fa25ea5c57a50f2413498fe68ea92f8eaf",
+    "missing_hitid_all_predictions": "6fd67ad604c8c345418bcec6a8717ea7440df60ab40ec068ea92486f701f25f8",
+    "missing_hitid_positives": "91fc4c5206c68e875f8dcafd0ffffe4fff43f35188211838063e6712067ecca8",
+    "structure_remainder_all_predictions": "6326c517d38fccf0cd93d7eb9786bc92070fe67bc1df6eb710d9cd29f80ea234"
+  }
+}

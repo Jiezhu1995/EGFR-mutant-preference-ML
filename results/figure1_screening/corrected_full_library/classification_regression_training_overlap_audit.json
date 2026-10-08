@@ -1,0 +1,10 @@
+{
+  "screen": "ECFP6 triple-mutant activity classifier",
+  "consensus_candidates": 16,
+  "training_connectivity_matches": 4,
+  "candidates_after_training_overlap_exclusion": 12,
+  "audit_csv": "classification_regression_training_overlap_audit.csv",
+  "match_details_csv": "classification_regression_training_overlap_details.csv",
+  "excluded_csv": "taosu_screen_candidates_excluded_training_overlap.csv",
+  "retained_csv": "taosu_regression_ECFP6_novel_candidates_training_excluded.csv"
+}

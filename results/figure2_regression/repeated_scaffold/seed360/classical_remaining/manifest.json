@@ -1,0 +1,27 @@
+{
+  "seed": 360,
+  "rdkit": "2025.03.5",
+  "fingerprints": [
+    "ecfp4",
+    "ecfp6",
+    "maccs",
+    "rdkit",
+    "atompair",
+    "cdk_standard",
+    "cdk_ecfp6"
+  ],
+  "mutation_encodings": [
+    "none",
+    "hash",
+    "explicit"
+  ],
+  "models": [
+    "ridge",
+    "elasticnet",
+    "knn",
+    "randomforest",
+    "extratrees",
+    "histgradientboosting"
+  ],
+  "data": "/home/ubuntu/egfr_seed746_regression/repeated_scaffold/seed360/egfr_pairs_scaffold5_seed360.tsv.gz"
+}

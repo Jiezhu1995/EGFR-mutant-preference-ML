@@ -1,0 +1,9 @@
+{
+  "seed": 746,
+  "device": "cuda",
+  "torch": "2.4.1+cu121",
+  "rdkit": "2026.03.5",
+  "model": "4-layer GINE",
+  "protein": "explicit",
+  "wt_input": "2D graph+endpoint only"
+}

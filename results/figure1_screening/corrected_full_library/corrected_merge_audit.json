@@ -1,0 +1,10 @@
+{
+  "original_positive_rows": 507,
+  "addendum_positive_rows": 94,
+  "combined_positive_rows": 601,
+  "valid_standardized_rows": 601,
+  "deduplicated_positive_structures": 529,
+  "missing_hit_id_positive_structures": 34,
+  "rdkit_version": "2025.03.5",
+  "deduplication_key": "uncharged largest-fragment full InChIKey; stereochemistry retained"
+}

@@ -1,0 +1,21 @@
+{
+  "target": "EGFR",
+  "uniprot_accession": "P00533",
+  "input_strict_rows": 1271,
+  "document_evidence_after_cross_source_dedup": 1271,
+  "aggregated_pair_tasks": 1230,
+  "accepted_training_pairs": 1223,
+  "conflict_excluded": 7,
+  "accepted_unique_compounds": 810,
+  "accepted_variant_settings": 30,
+  "confidence": {
+    "medium": 1210,
+    "high": 13
+  },
+  "conflict_reasons": {
+    "delta_range_gt_1;wt_range_gt_1_5;mutant_range_gt_1_5;": 3,
+    "delta_range_gt_1;wt_range_gt_1_5;": 2,
+    "mutant_range_gt_1_5;": 1,
+    "delta_range_gt_1;mutant_range_gt_1_5;": 1
+  }
+}

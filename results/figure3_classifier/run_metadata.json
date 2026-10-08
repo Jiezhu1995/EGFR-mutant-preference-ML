@@ -1,0 +1,19 @@
+{
+  "fingerprint": "archived ECFP6, 1024 bits",
+  "model": "RBF-SVM C=10 gamma=scale",
+  "seeds": [
+    104,
+    410,
+    853,
+    746,
+    732,
+    360,
+    156,
+    556,
+    450,
+    727
+  ],
+  "n_compounds": 2099,
+  "n_features": 1024,
+  "y_randomizations_per_null_design": 20
+}

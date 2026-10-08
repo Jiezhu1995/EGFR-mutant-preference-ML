@@ -1,0 +1,22 @@
+[
+  {
+    "source": "outputs/gpu_full_export_20260829/egfr_work/kinase_data_collection/raw/BindingDB_All_202608_tsv.zip",
+    "bytes": 592986963,
+    "reason": "Original database/library download; external source asset"
+  },
+  {
+    "source": "outputs/gpu_full_export_20260829/egfr_work/kinase_data_collection/raw/BindingDB_Assays_202608_tsv.zip",
+    "bytes": 10067687,
+    "reason": "Original database/library download; external source asset"
+  },
+  {
+    "source": "outputs/gpu_full_export_20260829/egfr_work/kinase_data_collection/raw/BindingDB_rsid_eaids_202608_tsv.zip",
+    "bytes": 7556983,
+    "reason": "Original database/library download; external source asset"
+  },
+  {
+    "source": "outputs/gpu_full_export_20260829/egfr_work/kinase_data_collection/raw/chembl_37_sqlite.tar.gz",
+    "bytes": 5764252857,
+    "reason": "Original database/library download; external source asset"
+  }
+]

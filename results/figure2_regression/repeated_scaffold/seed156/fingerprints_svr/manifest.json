@@ -1,0 +1,22 @@
+{
+  "seed": 156,
+  "rdkit": "2025.03.5",
+  "fingerprints": [
+    "ecfp4",
+    "ecfp6",
+    "maccs",
+    "rdkit",
+    "atompair",
+    "cdk_standard",
+    "cdk_ecfp6"
+  ],
+  "mutation_encodings": [
+    "none",
+    "hash",
+    "explicit"
+  ],
+  "models": [
+    "svr"
+  ],
+  "data": "/home/ubuntu/egfr_seed746_regression/repeated_scaffold/seed156/egfr_pairs_scaffold5_seed156.tsv.gz"
+}

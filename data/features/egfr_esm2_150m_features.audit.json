@@ -1,0 +1,10 @@
+{
+  "model": "facebook/esm2_t30_150M_UR50D",
+  "device": "cuda",
+  "torch": "2.4.1+cu121",
+  "unique_sequences": 26,
+  "variant_tokens": 30,
+  "embedding_dimension": 640,
+  "local_radius": 16,
+  "unresolved_variants_zero_difference": 4
+}

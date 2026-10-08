@@ -1,0 +1,21 @@
+{
+  "canonical_construct_id": "P00533__seq_dbb4583267ad40a7",
+  "canonical_length": 1210,
+  "domain": [
+    650,
+    1000
+  ],
+  "unique_variant_tokens": 30,
+  "paired_rows": 1223,
+  "quality_by_token": {
+    "exact": 22,
+    "surrogate": 4,
+    "unresolved": 4
+  },
+  "coverage_by_pair_row": {
+    "exact": 1107,
+    "surrogate": 83,
+    "unresolved": 33
+  },
+  "exon19_surrogate": "E746_A750del"
+}

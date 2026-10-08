@@ -1,0 +1,4 @@
+fingerprint,protein_representation,model,target,rmse_mean,rmse_sd,mae_mean,pearson_mean,spearman_mean
+learned_2d_graph,explicit_esm,GIN_multitask,delta_pactivity,0.8621829930825881,0.0197215826239289,0.6366782307624816,0.6487226605415344,0.61644269196209
+learned_2d_graph,explicit_esm,GIN_multitask,p_activity_mut,0.9504262763851467,0.08115528826933648,0.7175136566162109,0.43252777457237246,0.4039189750991655
+learned_2d_graph,explicit_esm,GIN_multitask,p_activity_wt,1.087950967886195,0.114729732962429,0.8342066764831543,0.3558950901031494,0.353186569471685

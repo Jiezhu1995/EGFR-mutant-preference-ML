@@ -1,0 +1,11 @@
+{
+  "seed": 104,
+  "device": "cuda",
+  "torch": "2.4.1+cu121",
+  "rdkit": "2026.03.5",
+  "fingerprint": "ecfp6",
+  "protein": "explicit_esm",
+  "consistency_weight": 0.0,
+  "wt_input": "compound+endpoint only",
+  "mutant_and_delta_input": "compound+endpoint+protein representation"
+}

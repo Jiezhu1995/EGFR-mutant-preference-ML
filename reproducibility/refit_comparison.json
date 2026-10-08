@@ -1,0 +1,25 @@
+{
+  "classifier_refit": {
+    "n_predictions": 2099,
+    "max_absolute_score_difference": 0.0,
+    "identical_positive_labels": true
+  },
+  "regression_refit": {
+    "mut": {
+      "n_predictions": 1223,
+      "max_absolute_pactivity_difference": 0.0002760601827773712,
+      "mean_absolute_pactivity_difference": 5.986559145517447e-05
+    },
+    "wt": {
+      "n_predictions": 1223,
+      "max_absolute_pactivity_difference": 9.769962616701378e-15,
+      "mean_absolute_pactivity_difference": 1.8707666468908606e-15
+    },
+    "delta": {
+      "n_predictions": 1223,
+      "max_absolute_pactivity_difference": 0.0002495976226239982,
+      "mean_absolute_pactivity_difference": 6.336786114348282e-05
+    },
+    "note": "All 1,223 structures scored at the fixed triple-mutant/IC50 context to test numerical reproduction, not an accuracy evaluation. Archived estimators identify sklearn 1.9.0; local refit uses 1.7.1. Packaged original models are preserved."
+  }
+}

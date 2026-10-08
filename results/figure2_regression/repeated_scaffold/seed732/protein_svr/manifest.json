@@ -1,0 +1,20 @@
+{
+  "seed": 732,
+  "esm_components": 16,
+  "fingerprints": [
+    "ecfp6",
+    "cdk_standard"
+  ],
+  "models": [
+    "svr"
+  ],
+  "protein_representations": [
+    "no_mutation",
+    "hash",
+    "explicit",
+    "esm_difference",
+    "explicit_esm"
+  ],
+  "wt_rule": "compound fingerprint + endpoint only; mutant representation excluded",
+  "esm_projection": "fold-specific PCA fitted on training rows, followed by training-only standardization"
+}

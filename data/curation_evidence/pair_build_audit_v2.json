@@ -1,0 +1,25 @@
+{
+  "target": "EGFR",
+  "uniprot_accession": "P00533",
+  "all_candidate_pairs": 5180,
+  "strict_pairs": 1271,
+  "tier_b_unknown_assay_pairs": 3909,
+  "strict_unique_compounds": 811,
+  "strict_variant_settings": 30,
+  "strict_by_source": {
+    "ChEMBL37": 1230,
+    "BindingDB": 41
+  },
+  "strict_by_endpoint": {
+    "IC50": 1129,
+    "Kd": 94,
+    "Ki": 48
+  },
+  "strict_by_assay_class": {
+    "biochemical_activity": 896,
+    "cellular_target_engagement": 186,
+    "biochemical_binding": 133,
+    "cellular_proliferation": 34,
+    "other_cellular": 22
+  }
+}
