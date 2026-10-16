@@ -71,9 +71,7 @@ Use Python with the packages listed in `requirements.txt`: NumPy, pandas,
 SciPy, scikit-learn, RDKit, joblib, Matplotlib, XGBoost, PyYAML, statsmodels
 and ReportLab. For multitask MLP or GIN training, install
 `requirements-deep.txt`, which adds PyTorch, PyTorch Geometric and
-Transformers. On macOS, XGBoost also needs an OpenMP runtime.
+Transformers.
 
 The fitted regression model records scikit-learn 1.9.0; numerical comparisons
-with a local refit are in `reproducibility/refit_comparison.json`. Load joblib
-model files only from trusted sources. Public distribution is subject to
-source-data redistribution terms and an approved repository license.
+with a local refit are in `reproducibility/refit_comparison.json`. 
